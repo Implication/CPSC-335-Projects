@@ -1,0 +1,10 @@
+CPSC 335-x - Programming Assignment #1
+The alternating disks problem: lawnmower algorithm
+Enter the number of single color disks (light or dark)
+5
+Initial configuration
+d l d l d l d l d l 
+After moving darker ones to the left
+l l l l l d d d d d 
+Number of swaps is 15
+

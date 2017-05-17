@@ -1,0 +1,64 @@
+
+CPSC 335-x - Programming Assignment #2
+Topology recognition algorithm
+Enter the number of nodes in the topology
+5
+Enter the positive weights, 100 for infinity
+
+0 1 2 3 4
+1 0 100 100 100
+2 100 0 100 100
+3 100 100 0 100
+4 100 100 100 0
+
+The topology is
+star
+elapsed time: 0.000279 seconds
+
+
+
+CPSC 335-x - Programming Assignment #2
+Topology recognition algorithm
+Enter the number of nodes in the topology
+5
+Enter the positive weights, 100 for infinity
+0 2 100 100 5
+2 0 3 100 100
+100 3 0 1 100
+100 100 1 0 4
+5 100 100 4 0
+The topology is
+ring
+elapsed time: 0.000164 seconds
+
+
+
+CPSC 335-x - Programming Assignment #2
+Topology recognition algorithm
+Enter the number of nodes in the topology
+5
+Enter the positive weights, 100 for infinity
+0 1 2 3 4
+1 0 5 2 3
+2 5 0 4 1
+3 2 4 0 2
+4 3 1 2 0
+The topology is
+fully connected mesh
+elapsed time: 8.3e-05 seconds
+
+
+
+CPSC 335-x - Programming Assignment #2
+Topology recognition algorithm
+Enter the number of nodes in the topology
+5
+Enter the positive weights, 100 for infinity
+0 2 100 4 5
+2 0 3 100 100
+100 3 0 1 100
+4 100 1 0 4
+5 100 100 4 0
+The topology is
+neither
+elapsed time: 0.000145 seconds
